@@ -3,15 +3,16 @@ const APIFeatures = require('../utils/apiFeatures');
 const AppError = require('../utils/appError');
 
 // problema de importação aqui
-//const catchAsync = require('./../utils/catchAsync');
+const catchAsync = require('./../utils/catchAsync');
 
 
-
+/*
 const catchAsync = fn => {
     return (req, res, next) => {
         fn(req, res, next).catch((err) => next(err));
     };
 };
+*/
 
 
 
